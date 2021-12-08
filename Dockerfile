@@ -9,6 +9,7 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 ADD app.py ./app.py
 ADD db.py ./db.py
+ADD stocks.db ./ stocks.db
 ADD models.py ./models.py
 ADD process.py ./process.py
 ADD s_models.py ./s_models.py
