@@ -1,0 +1,11 @@
+numpy
+pandas
+datetime
+sktime==0.4.1
+sklearn
+statsmodels
+pmdarima
+streamlit
+pysqlite3
+yfinance
+matplotlib
